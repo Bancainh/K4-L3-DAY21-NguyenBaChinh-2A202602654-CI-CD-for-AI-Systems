@@ -1,4 +1,5 @@
 mlflow.db
+mlruns/
 mlartifacts/
 models/
 outputs/
@@ -11,3 +12,13 @@ sa-key.json
 __pycache__/
 *.pyc
 .DS_Store
+
+*.pem
+.aws/
+secrets/
+credentials
+credentials.json
+.env.*
+!.env.example
+.pytest_cache/
+.lab-tmp/
